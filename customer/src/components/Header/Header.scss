@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    top: 0;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    color: #fff;
+    z-index: 999;
+
+    .navbar-left,
+    .navbar-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding: 0 0.26667rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-title {
+        font-size: 16px;
+        flex: 1;
+        text-align: center;
+        color: #323233;
+    }
+
+    .navbar-left {
+        left: 0;
+    }
+
+    .navbar-right {
+        right: 0;
+    }
+}
+
+.header-fill {
+    width: 100%;
+    max-width: 10rem;
+    height: 1.33333rem;
+    line-height: 1.33333rem;
+}
+
+.navbar-back {
+    width: 0.69333rem;
+    height: 0.69333rem;
+}

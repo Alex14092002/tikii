@@ -1,0 +1,90 @@
+.home-page {
+    min-height: 100vh;
+    background: url("@src/assets/images/bj.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    overflow-y: auto;
+
+    .top {
+        width: 100%;
+        line-height: 30px;
+        text-indent: 8px;
+        font-weight: bold;
+        font-size: 0.8rem;
+        color: #ffce00;
+        background-color: #0a55ba;
+        background-color: rgb(22 97 198);
+        position: relative;
+    }
+
+    img {
+        padding-top: 7px;
+        width: 93%;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .marquee-position {
+        width: 69%;
+        top: 60%;
+        right: 1.75rem;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+
+    .center {
+        img {
+            width: 15rem;
+            display: block;
+            margin: 0px auto;
+            margin-top: 3.8rem;
+        }
+    }
+
+    .scroll-to-top {
+        width: 85%;
+        height: 73px;
+        overflow: hidden;
+        color: #fff;
+        font-size: 14px;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    .btn-group {
+        img {
+            display: inline-block;
+            margin-left: 10px;
+            width: 40px;
+            @media screen and (max-width: 480px) {
+                margin: auto;
+                margin-bottom: 10px;
+            }
+        }
+
+        p,
+        span {
+            font-size: 14px;
+            font-family: Source Han Sans CN;
+            font-weight: 500;
+            color: #e0def7;
+        }
+
+        .item {
+            border: 2px solid #7b819d;
+            opacity: 1;
+            border-radius: 0.7rem;
+            position: relative;
+            padding: 2%;
+            margin-bottom: 1.3rem;
+            min-height: 75px;
+
+            @media screen and (max-width: 480px) {
+                flex-direction: column;
+            }
+        }
+    }
+}

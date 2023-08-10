@@ -1,0 +1,6 @@
+{
+    "BASE_URL": "https://api.tikivx.code/",
+    "SOCKET_URL": "https://api.tikivx.code",
+    "LOGIN_URL": "https://tikivx.code/login",
+    "PUSHER_KEY": "c0ed0254aec7c965ba3f"
+}

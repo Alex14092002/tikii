@@ -1,0 +1,27 @@
+.item-nav:hover {
+    .arrow-more {
+        right: 10px;
+    }
+}
+
+.slide-bar_active {
+    height: 40px;
+    width: 4px;
+    background: #7551ff;
+    border-radius: 5px;
+    position: absolute;
+    right: -5px;
+}
+.slide-bar_hover:hover svg {
+    margin-left: 10px;
+}
+
+.box-shadow_side {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9;
+}

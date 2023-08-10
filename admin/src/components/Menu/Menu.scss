@@ -1,0 +1,7 @@
+.bg-menu {
+    border: 1px solid rgb(115, 103, 240) !important;
+    &:hover,
+    &:active {
+        background: linear-gradient(118deg, rgb(115, 103, 240), rgba(115, 103, 240, 0.7)) !important;
+    }
+}

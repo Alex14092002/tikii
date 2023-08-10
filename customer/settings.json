@@ -1,0 +1,5 @@
+{
+    "BASE_URL": "https://api.tikii.vn/",
+    "SOCKET_URL": "https://api.tikii.vn",
+    "PUSHER_KEY": "c0ed0254aec7c965ba3f"
+}

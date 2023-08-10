@@ -1,0 +1,31 @@
+.page-card-usdt {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+
+    .label {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        box-sizing: border-box;
+        padding: 10px 16px;
+        overflow: hidden;
+        color: #323233;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: #fff;
+    }
+
+    input {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        text-align: left;
+        background-color: transparent;
+        border: 0;
+        resize: none;
+    }
+}

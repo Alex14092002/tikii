@@ -1,0 +1,98 @@
+.page-login {
+    height: 850px;
+
+    .bg-top {
+        width: 100%;
+        height: 350px;
+        background: #000;
+    }
+
+    .bg-xia {
+        width: 100%;
+
+        &::before,
+        &::after {
+            display: block;
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 40px;
+            background-color: #fff;
+            border-radius: 50%;
+            top: 330px;
+        }
+    }
+
+    .title {
+        position: absolute;
+        top: 80px;
+        color: #fff;
+        font-size: 20px;
+        transform: translateX(-50%);
+        left: 50%;
+        font-weight: bolder;
+
+        .desc {
+            font-size: 14px;
+            font-weight: bolder;
+            text-align: center;
+        }
+    }
+
+    .main {
+        width: 90%;
+        max-width: 750px;
+        position: absolute;
+        top: 160px;
+        background-color: #fff;
+        transform: translateX(-50%);
+        left: 50%;
+        border-radius: 20px;
+        box-shadow: 0 0 30px #333;
+        margin-bottom: 300px;
+
+        .form {
+            margin: 40px 14px;
+
+            .van-cell {
+                border: 1px solid rgba(220, 222, 224, .8431372549019608);
+                margin: 14px 0;
+                border-radius: 30px;
+            }
+
+            .van-cell--center {
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+
+            .van-cell {
+                position: relative;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                box-sizing: border-box;
+                width: 100%;
+                padding: 10px 16px;
+                overflow: hidden;
+                color: #323233;
+                font-size: 14px;
+                line-height: 24px;
+                background-color: #fff;
+            }
+
+            .van-cell:after {
+                position: absolute;
+                box-sizing: border-box;
+                content: " ";
+                pointer-events: none;
+                right: 16px;
+                bottom: 0;
+                left: 16px;
+                border-bottom: 1px solid #ebedf0;
+                -webkit-transform: scaleY(.5);
+                transform: scaleY(.5);
+            }
+        }
+    }
+}

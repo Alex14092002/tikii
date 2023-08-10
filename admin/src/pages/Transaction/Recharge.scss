@@ -1,0 +1,31 @@
+.recharge-info {
+    border: 2px dashed #e04f1a30;
+    padding: 3px;
+    color: #e53e3e !important;
+    margin-left: 15px;
+}
+
+.ant-tabs-nav-wrap {
+    background: #111c45;
+    margin-top: 15px;
+    padding: 5px 10px;
+    padding-bottom: 15px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.ant-table-content {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.ant-table-content table {
+    table-layout: unset !important;
+}
+
+.ant-pagination {
+    background-color: #fff;
+    margin: 0 !important;
+    padding: 12px 0px;
+    border-radius: 0 0 8px 8px;
+}

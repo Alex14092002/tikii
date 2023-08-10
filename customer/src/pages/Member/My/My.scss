@@ -1,0 +1,77 @@
+.page-my {
+    .top {
+        width: 100%;
+        background: #1989fa;
+    }
+
+    .space {
+        padding: 16px 16px 8px;
+        background-color: #f7f8fa;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .list-action {
+        .item-action {
+            cursor: pointer;
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px 16px;
+            overflow: hidden;
+            color: #323233;
+            font-size: 14px;
+            line-height: 24px;
+            background-color: #fff;
+        }
+
+        span {
+            color: #111;
+            font-size: 14px;
+            font-weight: 450;
+            line-height: 24px;
+            font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+        }
+    }
+
+    .btn-logout {
+        border: 1px solid #2196f3;
+        margin: 32px;
+
+        span {
+            padding: 0 15px;
+            font-size: 14px;
+            color: #ee0a24;
+        }
+    }
+
+    .grade{
+        background-image: url(../../../assets/images/grade.png);
+        background-size: 100px 100px;
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        .grade__text{
+            width: 100px;
+            height: 60px;
+            text-align: center;
+            span{
+                color: #FFF;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.text-overflow-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
